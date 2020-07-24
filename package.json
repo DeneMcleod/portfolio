@@ -1,0 +1,23 @@
+{
+  "name": "appengine-hello-world",
+  "description": "Simple Hello World Node.js sample for Google App Engine Standard Environment.",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GoogleCloudPlatform/nodejs-docs-samples.git"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "deploy": "gcloud app deploy --project=portfolio-project-22",
+    "start": "node app.js",
+    "test": "mocha --exit test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
